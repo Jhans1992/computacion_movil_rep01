@@ -1,4 +1,4 @@
-# Memoria persistente para agentes de IA
+# MemoryIA
 
 Este proyecto implementa un sistema base de **memoria persistente** para agentes de IA usando Python y SQLite. Su objetivo es reducir la pérdida de contexto entre ejecuciones y facilitar que un agente recuerde:
 
@@ -17,7 +17,7 @@ Este proyecto implementa un sistema base de **memoria persistente** para agentes
 
 ## Estructura principal
 
-- `memoria_persistente_agentes.py`: clase principal `MemoriaPersistenteAgentes` y una demo ejecutable.
+- `memoryia.py`: clase principal `MemoryIA` y una demo ejecutable.
 
 ## Requisitos
 
@@ -26,7 +26,7 @@ Este proyecto implementa un sistema base de **memoria persistente** para agentes
 ## Ejecución
 
 ```bash
-python memoria_persistente_agentes.py
+python memoryia.py
 ```
 
 Al ejecutar el script se insertan eventos de ejemplo, se imprime el último contexto, el historial y una búsqueda simple.

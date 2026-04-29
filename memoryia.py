@@ -17,8 +17,8 @@ class RegistroMemoria:
     creado_en: str
 
 
-class MemoriaPersistenteAgentes:
-    """Sistema simple de memoria persistente para agentes de IA.
+class MemoryIA:
+    """MemoryIA: sistema simple de memoria persistente para agentes de IA.
 
     Usa SQLite para mantener eventos de contexto entre ejecuciones.
     """
@@ -111,7 +111,7 @@ class MemoriaPersistenteAgentes:
 
 
 def demo() -> None:
-    sistema = MemoriaPersistenteAgentes()
+    sistema = MemoryIA()
     agente = "agente-demo"
 
     print("=== Demo de Memoria Persistente para Agentes de IA ===")
